@@ -1,0 +1,63 @@
+/*  main  */
+main {
+  display: flex;
+  width: 100%;
+}
+/*  aside */
+aside {
+  width: 25%;
+  padding: 20px;
+  
+}
+
+/*  aside izquierda  */
+aside h3 {
+  padding: 20px 0px;
+}
+aside a {
+  padding: 5px 0px;
+  display: block;
+  color: firebrick;
+}
+
+/*  aside derecha  */
+aside img {
+  width: 70%;
+  margin: 20px auto;
+  display: block;
+}
+
+/*  section  */
+section {
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+section figure {
+  width: 30%;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: azure;
+  
+  margin-right: 8px;
+  border-radius: 10px;
+}
+section figure img {
+  width: 80%;
+  margin: 10px auto;
+  display: block;
+}
+section figure figcaption {
+  margin: 10px;
+  text-align: center;
+}
+
+section figure img {
+  width: 129px;
+  height: 143px;
+}

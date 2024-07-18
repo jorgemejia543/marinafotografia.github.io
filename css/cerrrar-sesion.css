@@ -1,0 +1,38 @@
+body {
+    background-color: #fff5c6;
+}
+
+
+/* Estilo para el contenedor del formulario */
+.cerrar-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 60px;
+    margin-top: 200px;
+    background-color: #ffc933;
+    border: 1px solid #7a360d;
+    align-items: center;
+    text-align: center;
+}
+
+/* boton */
+.botones {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    background-color: #f9a207;
+    color: white;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 20px;
+    font-family: arial;
+    overflow: hidden;
+    cursor: pointer;
+    transition: background-color 5s ease;
+}
+
+.botones:hover {
+    background-image: linear-gradient(to right, #ca7347, #f9de47 100%);
+    color: blue;
+}
